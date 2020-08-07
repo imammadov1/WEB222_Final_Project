@@ -1,0 +1,26 @@
+Student Name: Ilkin Mammadov
+Student Id: 148860182
+Email: imammadov1@myseneca.ca
+
+	In this project i have learned the main purpose of the Html form is to get the input from user 
+	to submit it to server. There are multiple types of Html form we have used in this project. They 
+	are textarea and input. Textarea is for to get some text or description from the user. Input is 
+	for to get different types of inputs from user. We got familir email, password, text, radio and 
+	submit types in the final project. We can name this input using label element. for submit type we 
+	can use an attribute "value".
+
+ 	Input Attributes:
+ 	Id stand for identification of input element,
+ 	Type is specifying the input type. here are the common ones(text, password,email, radio etc.) 
+ 	Name is specifying name of value being sent to server.
+ 	Required is specifying the the field must be filled.
+ 	Placeholder is specifying the text appeared in the input are.
+ 	Tabindex stands for that user can jump from input to unput using tab.
+ 	Hidden is used to hide the input from the users view.
+ 	Pattern is specifying the submitted expression to the input.
+ 	Auto-focus is specifying the focus of the page after it loaded.
+ 	
+ I am usually using developer tools in firefox. always try to inspect site to fix the bugs. It is really helpful. You can even edit your page without changeing the main code.
+ 	 
+ 	
+ 	
