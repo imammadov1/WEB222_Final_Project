@@ -1,0 +1,177 @@
+<!--STUDENT NAME: ILKIN MAMMADOV
+STUDENT ID: 148860182
+USER ID: IMAMMADOV1@MYSENECA.CA
+ I DECLARE THAT I HAVE DONE ALL WORK BY MYSELF
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB222 Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="Logo" />
+      <a href="index.html">Home</a>
+      <p>
+        Online store serves to Seniors and People with Disabilities to make their shopping easier
+        during pandemic.
+      </p>
+    </header>
+    <main id="contact">
+        <form action="https://httpbin.org/post" method="POST">
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" placeholder="Full Name" required tabindex="1" autofocus>
+
+            <label for="email">Email Address</label>
+            <input id="email" type="email" name="email" placeholder="username@example.com" required tabindex="2" autocomplete="email">
+
+            <label for="address">Address</label>
+            <input id="address" type="text" name="address" placeholder="Street number and name" tabindex="3" required>
+
+            <label for="city">City</label>
+            <input id="city"type="text" list="Cities" name="city" tabindex="4" required placeholder="City">
+            <datalist id="Cities">
+                <option value="Abbotsford">
+                <option value="Airdrie">
+                <option value="Ajax">
+                <option value="Aurora">
+                <option value="Barrie">
+                <option value="Belleville">
+                <option value="Blainville">
+                <option value="Brampton">
+                <option value="Brantford">
+                <option value="Burlington">
+                <option value="Burnaby">
+                <option value="Caledon">
+                <option value="Calgary">
+                <option value="Cambridge">
+                <option value="Cape Breton">
+                <option value="Chatham-Kent">
+                <option value="Chilliwack">
+                <option value="Clarington">
+                <option value="Coquitlam">
+                <option value="Delta">
+                <option value="Drummondville">
+                <option value="Edmonton">
+                <option value="Fredericton">
+                <option value="Gatineau">
+                <option value="Granby">
+                <option value="Grande Prairie">
+                <option value="Greater Sudbury">
+                <option value="Guelph">
+                <option value="Halifax">
+                <option value="Halton Hills">
+                <option value="Hamilton">
+                <option value="Kamloops">
+                <option value="Kawartha Lakes">
+                <option value="Kelowna">
+                <option value="Kingston">
+                <option value="Kitchener">
+                <option value="Langley">
+                <option value="Laval">
+                <option value="Lethbridge">
+                <option value="London">
+                <option value="Maple Ridge">
+                <option value="Markham">
+                <option value="Medicine Hat">
+                <option value="Milton">
+                <option value="Mirabel">
+                <option value="Mississauga">
+                <option value="Moncton">
+                <option value="Montreal">
+                <option value="Nanaimo">
+                <option value="New Westminster">
+                <option value="Newmarket">
+                <option value="Niagara Falls">
+                <option value="Norfolk County">
+                <option value="North Bay">
+                <option value="North Vancouver">
+                <option value="North Vancouver">
+                <option value="Oakville">
+                <option value="Oshawa">
+                <option value="Ottawa">
+                <option value="Peterborough">
+                <option value="Pickering">
+                <option value="Port Coquitlam">
+                <option value="Prince George">
+                <option value="Quebec City">
+                <option value="Red Deer">
+                <option value="Regina">
+                <option value="Repentigny">
+                <option value="Richmond Hill">
+                <option value="Richmond">
+                <option value="Saanich">
+                <option value="Saguenay">
+                <option value="Saint John">
+                <option value="Saint-Hyacinthe">
+                <option value="Saint-Jean-sur-Richelieu">
+                <option value="Saint-Jérôme">
+                <option value="Sarnia">
+                <option value="Saskatoon">
+                <option value="Strathcona County">
+                <option value="Surrey">
+                <option value="Terrebonne">
+                <option value="Thunder Bay">
+                <option value="Toronto">
+                <option value="Trois-Rivières">
+                <option value="Vancouver">
+                <option value="Vaughan">
+                <option value="Victoria">
+                <option value="Waterloo">
+                <option value="Welland">
+                <option value="Whitby">
+                <option value="Windsor">
+                <option value="Winnipeg">
+            </datalist>
+
+            <label for="postal">Postal Code</label>
+            <input id="postal" type="text" name=Postal-Code required tabindex="5" pattern="[A-Za-z]\d[A-Za-z] ?\d[A-Za-z]\d" placeholder="A1A 1A1">
+
+            <label for="question">Question</label>
+            <input id="question" type="radio" name=reason value="Question" tabindex="6">
+            
+            <label for="comment">Comment</label>
+            <input id="comment" type="radio" name=reason value="Comment" tabindex="7">
+
+            <label for="orderProblem">Order Problem</label>
+            <input id="orderProblem" type="radio" name=reason value="Order Problem" tabindex="8">
+
+            <label for="ordNumber" style="display: none;">Order Number</label>
+            <input type="text" name="orderNumber" id="ordNumber" style="display: none;">
+
+            <label for="Feedback-message">Tell us...</label>
+            <textarea name="message" id="Feedback-message" rows="10" maxlength="500" placeholder="Tell us about your problem or feedback..." tabindex="9" required></textarea>
+
+            <input id=name type="text" name="studetName" value="Ilkin Mammadov" hidden>
+
+            <label for=""></label>
+            <input id=submit type="submit" name="submit" value="Submit" tabindex="10">
+
+
+        </form> 
+    </main>
+    <footer>
+      <div>
+        <a href="twitter.com"><i class="fab fa-twitter-square"></i>Twitter</a>
+        <a href="facebook.com"><i class="fab fa-facebook-square"></i>Facebook</a>
+        <a href="instagram.com"><i class="fab fa-instagram-square"></i>Instagram</a>
+      </div>
+      <div>
+        <form action="https://formspree.io/mzbjoqqk" method="POST">
+        <input id="email" type="email" name="_replyto" placeholder="username@example.com">
+        <input id=submit type="submit" name="submit" value="Subscribe">
+      </form>
+      </div>
+    </footer>
+    <script src="contact.js"></script>
+  </body>
+</html>
